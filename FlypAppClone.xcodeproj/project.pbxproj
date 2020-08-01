@@ -10,6 +10,9 @@
 		15FA09A4DD72FF55D16190AA /* Pods_FlypAppCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED6D10087B438FD937229F /* Pods_FlypAppCloneTests.framework */; };
 		1F1E9C5EF068EDA462276E2C /* Pods_FlypAppClone_FlypAppCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B020853B75F8E0F29749B17 /* Pods_FlypAppClone_FlypAppCloneUITests.framework */; };
 		A4562E124BF6F3FD79113226 /* Pods_FlypAppClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53381DF710896B0183459A92 /* Pods_FlypAppClone.framework */; };
+		CA2FB8B524D6180700093ACA /* ItemsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB8B424D6180700093ACA /* ItemsListTableViewController.swift */; };
+		CA2FB8B624D6180700093ACA /* ItemsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB8B424D6180700093ACA /* ItemsListTableViewController.swift */; };
+		CA2FB8B724D6180700093ACA /* ItemsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FB8B424D6180700093ACA /* ItemsListTableViewController.swift */; };
 		CAE09B9524D542F900B36DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE09B9424D542F900B36DFA /* AppDelegate.swift */; };
 		CAE09B9724D542F900B36DFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE09B9624D542F900B36DFA /* SceneDelegate.swift */; };
 		CAE09B9924D542F900B36DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE09B9824D542F900B36DFA /* ViewController.swift */; };
@@ -46,6 +49,7 @@
 		72003D73CE16EE42EE427FEA /* Pods-FlypAppClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppClone.debug.xcconfig"; path = "Target Support Files/Pods-FlypAppClone/Pods-FlypAppClone.debug.xcconfig"; sourceTree = "<group>"; };
 		7935BC58CAF15884B904A8B3 /* Pods-FlypAppClone-FlypAppCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppClone-FlypAppCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-FlypAppClone-FlypAppCloneUITests/Pods-FlypAppClone-FlypAppCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C919D6F4A40FAC2ECBB1238F /* Pods-FlypAppCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppCloneTests.release.xcconfig"; path = "Target Support Files/Pods-FlypAppCloneTests/Pods-FlypAppCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA2FB8B424D6180700093ACA /* ItemsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListTableViewController.swift; sourceTree = "<group>"; };
 		CAE09B9124D542F900B36DFA /* FlypAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlypAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE09B9424D542F900B36DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAE09B9624D542F900B36DFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CA2FB8AF24D6176A00093ACA /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				CA2FB8B424D6180700093ACA /* ItemsListTableViewController.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
 		CAE09B8824D542F800B36DFA = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +174,7 @@
 		CAE09BC724D544DD00B36DFA /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				CA2FB8AF24D6176A00093ACA /* Items */,
 				CAE09BA224D542FB00B36DFA /* LaunchScreen.storyboard */,
 				CAE09B9A24D542F900B36DFA /* Main.storyboard */,
 				CAE09BB824D542FC00B36DFA /* FlypAppCloneUITests */,
@@ -383,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE09B9924D542F900B36DFA /* ViewController.swift in Sources */,
+				CA2FB8B524D6180700093ACA /* ItemsListTableViewController.swift in Sources */,
 				CAE09B9524D542F900B36DFA /* AppDelegate.swift in Sources */,
 				CAE09B9F24D542F900B36DFA /* FlypAppClone.xcdatamodeld in Sources */,
 				CAE09B9724D542F900B36DFA /* SceneDelegate.swift in Sources */,
@@ -393,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2FB8B624D6180700093ACA /* ItemsListTableViewController.swift in Sources */,
 				CAE09BAF24D542FC00B36DFA /* FlypAppCloneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2FB8B724D6180700093ACA /* ItemsListTableViewController.swift in Sources */,
 				CAE09BBA24D542FC00B36DFA /* FlypAppCloneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
