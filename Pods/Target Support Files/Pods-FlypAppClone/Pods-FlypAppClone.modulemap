@@ -1,0 +1,6 @@
+framework module Pods_FlypAppClone {
+  umbrella header "Pods-FlypAppClone-umbrella.h"
+
+  export *
+  module * { export * }
+}

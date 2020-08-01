@@ -1,0 +1,6 @@
+framework module Pods_FlypAppClone_FlypAppCloneUITests {
+  umbrella header "Pods-FlypAppClone-FlypAppCloneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15FA09A4DD72FF55D16190AA /* Pods_FlypAppCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED6D10087B438FD937229F /* Pods_FlypAppCloneTests.framework */; };
+		1F1E9C5EF068EDA462276E2C /* Pods_FlypAppClone_FlypAppCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B020853B75F8E0F29749B17 /* Pods_FlypAppClone_FlypAppCloneUITests.framework */; };
+		A4562E124BF6F3FD79113226 /* Pods_FlypAppClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53381DF710896B0183459A92 /* Pods_FlypAppClone.framework */; };
+		CAE09B9524D542F900B36DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE09B9424D542F900B36DFA /* AppDelegate.swift */; };
+		CAE09B9724D542F900B36DFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE09B9624D542F900B36DFA /* SceneDelegate.swift */; };
+		CAE09B9924D542F900B36DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE09B9824D542F900B36DFA /* ViewController.swift */; };
+		CAE09B9C24D542F900B36DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE09B9A24D542F900B36DFA /* Main.storyboard */; };
+		CAE09B9F24D542F900B36DFA /* FlypAppClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAE09B9D24D542F900B36DFA /* FlypAppClone.xcdatamodeld */; };
+		CAE09BA124D542FB00B36DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE09BA024D542FB00B36DFA /* Assets.xcassets */; };
+		CAE09BA424D542FB00B36DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE09BA224D542FB00B36DFA /* LaunchScreen.storyboard */; };
+		CAE09BAF24D542FC00B36DFA /* FlypAppCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE09BAE24D542FC00B36DFA /* FlypAppCloneTests.swift */; };
+		CAE09BBA24D542FC00B36DFA /* FlypAppCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE09BB924D542FC00B36DFA /* FlypAppCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE09BAB24D542FC00B36DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE09B8924D542F800B36DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE09B9024D542F900B36DFA;
+			remoteInfo = FlypAppClone;
+		};
+		CAE09BB624D542FC00B36DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE09B8924D542F800B36DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE09B9024D542F900B36DFA;
+			remoteInfo = FlypAppClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0784A195BFA53B733EC7A0D1 /* Pods-FlypAppClone-FlypAppCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppClone-FlypAppCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlypAppClone-FlypAppCloneUITests/Pods-FlypAppClone-FlypAppCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09ED6D10087B438FD937229F /* Pods_FlypAppCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlypAppCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B020853B75F8E0F29749B17 /* Pods_FlypAppClone_FlypAppCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlypAppClone_FlypAppCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53381DF710896B0183459A92 /* Pods_FlypAppClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlypAppClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72003D73CE16EE42EE427FEA /* Pods-FlypAppClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppClone.debug.xcconfig"; path = "Target Support Files/Pods-FlypAppClone/Pods-FlypAppClone.debug.xcconfig"; sourceTree = "<group>"; };
+		7935BC58CAF15884B904A8B3 /* Pods-FlypAppClone-FlypAppCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppClone-FlypAppCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-FlypAppClone-FlypAppCloneUITests/Pods-FlypAppClone-FlypAppCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C919D6F4A40FAC2ECBB1238F /* Pods-FlypAppCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppCloneTests.release.xcconfig"; path = "Target Support Files/Pods-FlypAppCloneTests/Pods-FlypAppCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAE09B9124D542F900B36DFA /* FlypAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlypAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE09B9424D542F900B36DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAE09B9624D542F900B36DFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAE09B9824D542F900B36DFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAE09B9B24D542F900B36DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAE09B9E24D542F900B36DFA /* FlypAppClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlypAppClone.xcdatamodel; sourceTree = "<group>"; };
+		CAE09BA024D542FB00B36DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE09BA324D542FB00B36DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAE09BA524D542FB00B36DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE09BAA24D542FC00B36DFA /* FlypAppCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlypAppCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE09BAE24D542FC00B36DFA /* FlypAppCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlypAppCloneTests.swift; sourceTree = "<group>"; };
+		CAE09BB024D542FC00B36DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE09BB524D542FC00B36DFA /* FlypAppCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlypAppCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE09BB924D542FC00B36DFA /* FlypAppCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlypAppCloneUITests.swift; sourceTree = "<group>"; };
+		CAE09BBB24D542FC00B36DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A393D5962B194BCA75BDB1 /* Pods-FlypAppClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppClone.release.xcconfig"; path = "Target Support Files/Pods-FlypAppClone/Pods-FlypAppClone.release.xcconfig"; sourceTree = "<group>"; };
+		F3A083573FC57668F10E9AC3 /* Pods-FlypAppCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlypAppCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-FlypAppCloneTests/Pods-FlypAppCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE09B8E24D542F900B36DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4562E124BF6F3FD79113226 /* Pods_FlypAppClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE09BA724D542FC00B36DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA09A4DD72FF55D16190AA /* Pods_FlypAppCloneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE09BB224D542FC00B36DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1E9C5EF068EDA462276E2C /* Pods_FlypAppClone_FlypAppCloneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A217F38BABB5C3E496398CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72003D73CE16EE42EE427FEA /* Pods-FlypAppClone.debug.xcconfig */,
+				F2A393D5962B194BCA75BDB1 /* Pods-FlypAppClone.release.xcconfig */,
+				0784A195BFA53B733EC7A0D1 /* Pods-FlypAppClone-FlypAppCloneUITests.debug.xcconfig */,
+				7935BC58CAF15884B904A8B3 /* Pods-FlypAppClone-FlypAppCloneUITests.release.xcconfig */,
+				F3A083573FC57668F10E9AC3 /* Pods-FlypAppCloneTests.debug.xcconfig */,
+				C919D6F4A40FAC2ECBB1238F /* Pods-FlypAppCloneTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CAE09B8824D542F800B36DFA = {
+			isa = PBXGroup;
+			children = (
+				CAE09B9324D542F900B36DFA /* FlypAppClone */,
+				CAE09BAD24D542FC00B36DFA /* FlypAppCloneTests */,
+				CAE09BB824D542FC00B36DFA /* FlypAppCloneUITests */,
+				CAE09B9224D542F900B36DFA /* Products */,
+				3A217F38BABB5C3E496398CA /* Pods */,
+				EBF595B9AA40FA1B63D8B58A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE09B9224D542F900B36DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE09B9124D542F900B36DFA /* FlypAppClone.app */,
+				CAE09BAA24D542FC00B36DFA /* FlypAppCloneTests.xctest */,
+				CAE09BB524D542FC00B36DFA /* FlypAppCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE09B9324D542F900B36DFA /* FlypAppClone */ = {
+			isa = PBXGroup;
+			children = (
+				CAE09B9424D542F900B36DFA /* AppDelegate.swift */,
+				CAE09B9624D542F900B36DFA /* SceneDelegate.swift */,
+				CAE09B9824D542F900B36DFA /* ViewController.swift */,
+				CAE09B9A24D542F900B36DFA /* Main.storyboard */,
+				CAE09BA024D542FB00B36DFA /* Assets.xcassets */,
+				CAE09BA224D542FB00B36DFA /* LaunchScreen.storyboard */,
+				CAE09BA524D542FB00B36DFA /* Info.plist */,
+				CAE09B9D24D542F900B36DFA /* FlypAppClone.xcdatamodeld */,
+			);
+			path = FlypAppClone;
+			sourceTree = "<group>";
+		};
+		CAE09BAD24D542FC00B36DFA /* FlypAppCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE09BAE24D542FC00B36DFA /* FlypAppCloneTests.swift */,
+				CAE09BB024D542FC00B36DFA /* Info.plist */,
+			);
+			path = FlypAppCloneTests;
+			sourceTree = "<group>";
+		};
+		CAE09BB824D542FC00B36DFA /* FlypAppCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE09BB924D542FC00B36DFA /* FlypAppCloneUITests.swift */,
+				CAE09BBB24D542FC00B36DFA /* Info.plist */,
+			);
+			path = FlypAppCloneUITests;
+			sourceTree = "<group>";
+		};
+		EBF595B9AA40FA1B63D8B58A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53381DF710896B0183459A92 /* Pods_FlypAppClone.framework */,
+				3B020853B75F8E0F29749B17 /* Pods_FlypAppClone_FlypAppCloneUITests.framework */,
+				09ED6D10087B438FD937229F /* Pods_FlypAppCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE09B9024D542F900B36DFA /* FlypAppClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE09BBE24D542FC00B36DFA /* Build configuration list for PBXNativeTarget "FlypAppClone" */;
+			buildPhases = (
+				82B036FAD2D22B67DE20067C /* [CP] Check Pods Manifest.lock */,
+				CAE09B8D24D542F900B36DFA /* Sources */,
+				CAE09B8E24D542F900B36DFA /* Frameworks */,
+				CAE09B8F24D542F900B36DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlypAppClone;
+			productName = FlypAppClone;
+			productReference = CAE09B9124D542F900B36DFA /* FlypAppClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE09BA924D542FC00B36DFA /* FlypAppCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE09BC124D542FC00B36DFA /* Build configuration list for PBXNativeTarget "FlypAppCloneTests" */;
+			buildPhases = (
+				21250BCE8D3CE3F4E46A7105 /* [CP] Check Pods Manifest.lock */,
+				CAE09BA624D542FC00B36DFA /* Sources */,
+				CAE09BA724D542FC00B36DFA /* Frameworks */,
+				CAE09BA824D542FC00B36DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE09BAC24D542FC00B36DFA /* PBXTargetDependency */,
+			);
+			name = FlypAppCloneTests;
+			productName = FlypAppCloneTests;
+			productReference = CAE09BAA24D542FC00B36DFA /* FlypAppCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAE09BB424D542FC00B36DFA /* FlypAppCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE09BC424D542FC00B36DFA /* Build configuration list for PBXNativeTarget "FlypAppCloneUITests" */;
+			buildPhases = (
+				959FC1168C077A2780A426A5 /* [CP] Check Pods Manifest.lock */,
+				CAE09BB124D542FC00B36DFA /* Sources */,
+				CAE09BB224D542FC00B36DFA /* Frameworks */,
+				CAE09BB324D542FC00B36DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE09BB724D542FC00B36DFA /* PBXTargetDependency */,
+			);
+			name = FlypAppCloneUITests;
+			productName = FlypAppCloneUITests;
+			productReference = CAE09BB524D542FC00B36DFA /* FlypAppCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE09B8924D542F800B36DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Hamoon Jamshidi Meydandar";
+				TargetAttributes = {
+					CAE09B9024D542F900B36DFA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					CAE09BA924D542FC00B36DFA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CAE09B9024D542F900B36DFA;
+					};
+					CAE09BB424D542FC00B36DFA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CAE09B9024D542F900B36DFA;
+					};
+				};
+			};
+			buildConfigurationList = CAE09B8C24D542F800B36DFA /* Build configuration list for PBXProject "FlypAppClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE09B8824D542F800B36DFA;
+			productRefGroup = CAE09B9224D542F900B36DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE09B9024D542F900B36DFA /* FlypAppClone */,
+				CAE09BA924D542FC00B36DFA /* FlypAppCloneTests */,
+				CAE09BB424D542FC00B36DFA /* FlypAppCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE09B8F24D542F900B36DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE09BA424D542FB00B36DFA /* LaunchScreen.storyboard in Resources */,
+				CAE09BA124D542FB00B36DFA /* Assets.xcassets in Resources */,
+				CAE09B9C24D542F900B36DFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE09BA824D542FC00B36DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE09BB324D542FC00B36DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21250BCE8D3CE3F4E46A7105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlypAppCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82B036FAD2D22B67DE20067C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlypAppClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		959FC1168C077A2780A426A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlypAppClone-FlypAppCloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE09B8D24D542F900B36DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE09B9924D542F900B36DFA /* ViewController.swift in Sources */,
+				CAE09B9524D542F900B36DFA /* AppDelegate.swift in Sources */,
+				CAE09B9F24D542F900B36DFA /* FlypAppClone.xcdatamodeld in Sources */,
+				CAE09B9724D542F900B36DFA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE09BA624D542FC00B36DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE09BAF24D542FC00B36DFA /* FlypAppCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE09BB124D542FC00B36DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE09BBA24D542FC00B36DFA /* FlypAppCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE09BAC24D542FC00B36DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE09B9024D542F900B36DFA /* FlypAppClone */;
+			targetProxy = CAE09BAB24D542FC00B36DFA /* PBXContainerItemProxy */;
+		};
+		CAE09BB724D542FC00B36DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE09B9024D542F900B36DFA /* FlypAppClone */;
+			targetProxy = CAE09BB624D542FC00B36DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE09B9A24D542F900B36DFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE09B9B24D542F900B36DFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE09BA224D542FB00B36DFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE09BA324D542FB00B36DFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE09BBC24D542FC00B36DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAE09BBD24D542FC00B36DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE09BBF24D542FC00B36DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72003D73CE16EE42EE427FEA /* Pods-FlypAppClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYTHSR6MP4;
+				INFOPLIST_FILE = FlypAppClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamoonjm.FlypAppClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAE09BC024D542FC00B36DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A393D5962B194BCA75BDB1 /* Pods-FlypAppClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYTHSR6MP4;
+				INFOPLIST_FILE = FlypAppClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamoonjm.FlypAppClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAE09BC224D542FC00B36DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A083573FC57668F10E9AC3 /* Pods-FlypAppCloneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYTHSR6MP4;
+				INFOPLIST_FILE = FlypAppCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamoonjm.FlypAppCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlypAppClone.app/FlypAppClone";
+			};
+			name = Debug;
+		};
+		CAE09BC324D542FC00B36DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C919D6F4A40FAC2ECBB1238F /* Pods-FlypAppCloneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYTHSR6MP4;
+				INFOPLIST_FILE = FlypAppCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamoonjm.FlypAppCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlypAppClone.app/FlypAppClone";
+			};
+			name = Release;
+		};
+		CAE09BC524D542FC00B36DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0784A195BFA53B733EC7A0D1 /* Pods-FlypAppClone-FlypAppCloneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYTHSR6MP4;
+				INFOPLIST_FILE = FlypAppCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamoonjm.FlypAppCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlypAppClone;
+			};
+			name = Debug;
+		};
+		CAE09BC624D542FC00B36DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7935BC58CAF15884B904A8B3 /* Pods-FlypAppClone-FlypAppCloneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYTHSR6MP4;
+				INFOPLIST_FILE = FlypAppCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamoonjm.FlypAppCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlypAppClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE09B8C24D542F800B36DFA /* Build configuration list for PBXProject "FlypAppClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE09BBC24D542FC00B36DFA /* Debug */,
+				CAE09BBD24D542FC00B36DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE09BBE24D542FC00B36DFA /* Build configuration list for PBXNativeTarget "FlypAppClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE09BBF24D542FC00B36DFA /* Debug */,
+				CAE09BC024D542FC00B36DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE09BC124D542FC00B36DFA /* Build configuration list for PBXNativeTarget "FlypAppCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE09BC224D542FC00B36DFA /* Debug */,
+				CAE09BC324D542FC00B36DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE09BC424D542FC00B36DFA /* Build configuration list for PBXNativeTarget "FlypAppCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE09BC524D542FC00B36DFA /* Debug */,
+				CAE09BC624D542FC00B36DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CAE09B9D24D542F900B36DFA /* FlypAppClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAE09B9E24D542F900B36DFA /* FlypAppClone.xcdatamodel */,
+			);
+			currentVersion = CAE09B9E24D542F900B36DFA /* FlypAppClone.xcdatamodel */;
+			path = FlypAppClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CAE09B8924D542F800B36DFA /* Project object */;
+}
