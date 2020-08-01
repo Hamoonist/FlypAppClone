@@ -103,16 +103,15 @@
 				F3A083573FC57668F10E9AC3 /* Pods-FlypAppCloneTests.debug.xcconfig */,
 				C919D6F4A40FAC2ECBB1238F /* Pods-FlypAppCloneTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		CAE09B8824D542F800B36DFA = {
 			isa = PBXGroup;
 			children = (
+				CAE09BC724D544DD00B36DFA /* GUI */,
 				CAE09B9324D542F900B36DFA /* FlypAppClone */,
 				CAE09BAD24D542FC00B36DFA /* FlypAppCloneTests */,
-				CAE09BB824D542FC00B36DFA /* FlypAppCloneUITests */,
 				CAE09B9224D542F900B36DFA /* Products */,
 				3A217F38BABB5C3E496398CA /* Pods */,
 				EBF595B9AA40FA1B63D8B58A /* Frameworks */,
@@ -135,9 +134,7 @@
 				CAE09B9424D542F900B36DFA /* AppDelegate.swift */,
 				CAE09B9624D542F900B36DFA /* SceneDelegate.swift */,
 				CAE09B9824D542F900B36DFA /* ViewController.swift */,
-				CAE09B9A24D542F900B36DFA /* Main.storyboard */,
 				CAE09BA024D542FB00B36DFA /* Assets.xcassets */,
-				CAE09BA224D542FB00B36DFA /* LaunchScreen.storyboard */,
 				CAE09BA524D542FB00B36DFA /* Info.plist */,
 				CAE09B9D24D542F900B36DFA /* FlypAppClone.xcdatamodeld */,
 			);
@@ -160,6 +157,16 @@
 				CAE09BBB24D542FC00B36DFA /* Info.plist */,
 			);
 			path = FlypAppCloneUITests;
+			sourceTree = "<group>";
+		};
+		CAE09BC724D544DD00B36DFA /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				CAE09BA224D542FB00B36DFA /* LaunchScreen.storyboard */,
+				CAE09B9A24D542F900B36DFA /* Main.storyboard */,
+				CAE09BB824D542FC00B36DFA /* FlypAppCloneUITests */,
+			);
+			path = GUI;
 			sourceTree = "<group>";
 		};
 		EBF595B9AA40FA1B63D8B58A /* Frameworks */ = {
